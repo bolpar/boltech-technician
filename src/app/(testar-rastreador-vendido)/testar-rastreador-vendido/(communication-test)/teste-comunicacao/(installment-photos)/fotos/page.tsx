@@ -1,4 +1,7 @@
+'use client'
+
 import { InputText } from "@/components/UI/input-text";
+import { AlertDialog } from "@/components/alert-dialog";
 import { LegendFieldset } from "@/components/legend-fieldset";
 import { PictureInput } from "@/components/picture-input";
 import { Separator } from "@/components/separator";
@@ -26,7 +29,7 @@ export default function InstallmentsPhotos() {
       <Separator />
       <PictureInput title="+ Adicionar Foto da Rele..." placeholder="Observações da rele..." />
       <Separator />
-      <button className="mt-8 w-full rounded-md bg-green-400 p-4 text-neutral-600">Concluir</button>
+      <AlertDialog title="Finalizando instalação..." description="Podendo ser bloqueado sem aviso prévio caso identificado inconscistencia nas informações fornecidas na instalação" onConfirm={() => console.log('Concluiu!')} />
     </form>
   )
 }

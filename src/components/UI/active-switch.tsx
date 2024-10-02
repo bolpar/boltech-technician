@@ -9,7 +9,7 @@ export const ActiveSwitch = () => {
 
   return (
     <div className='m-auto mb-4 flex flex-col items-center justify-center gap-2'>
-      <span className="text-center text-xl font-medium text-neutral-600">{!isLock ? 'Desbloqueado' : 'Bloqueado'}</span>
+      <span className="text-center text-lg font-medium text-neutral-600">{!isLock ? 'Desbloqueado' : 'Bloqueado'}</span>
 
       <Switch.Root
         id="switch-lock"

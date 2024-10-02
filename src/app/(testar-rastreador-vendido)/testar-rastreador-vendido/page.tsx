@@ -2,6 +2,7 @@ import { InputText } from "@/components/UI/input-text";
 import { LegendFieldset } from "@/components/legend-fieldset";
 import { HouseIcon, UserIcon } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function TestarRastreadorVendido() {
   return (
@@ -27,7 +28,9 @@ export default function TestarRastreadorVendido() {
         <InputText type="text" placeholder="UF" />
       </fieldset>
 
-      <button className="mt-8 w-full rounded-md bg-green-400 p-4 text-neutral-600">Prosseguir</button>
+      <Link href="/testar-rastreador-vendido/teste-comunicacao">
+        <button className="mt-8 w-full rounded-md bg-green-400 p-4 text-neutral-600">Prosseguir</button>
+      </Link>
     </form>
   )
 }
