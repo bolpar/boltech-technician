@@ -13,7 +13,7 @@ export const AlertDialog = ({ title, description, onConfirm, ...rest }: AlertDia
   return (
     <AlertDialogPrimitive.Root>
       <AlertDialogPrimitive.Trigger asChild>
-        <button className="mt-8 w-full rounded-md bg-green-400 p-4 text-neutral-600" {...rest}>Prosseguir</button>
+        <button className="mt-8 w-full rounded-md bg-green-400 p-4 text-neutral-600" {...rest}>Concluir</button>
       </AlertDialogPrimitive.Trigger>
 
       <AlertDialogPrimitive.Portal>

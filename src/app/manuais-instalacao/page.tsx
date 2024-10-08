@@ -1,5 +1,5 @@
 import { LegendFieldset } from "@/components/legend-fieldset"
-import { BookTextIcon, EyeIcon } from "lucide-react"
+import { ArrowDownToLineIcon, BookTextIcon } from "lucide-react"
 import Image from "next/image"
 
 export default function InstallationManual() {
@@ -33,7 +33,7 @@ const Device = ({ title, src }: DeviceProps) => {
     <div className="mb-8 flex flex-col">
       <span className="m-auto text-neutral-600">{title}</span>
       <Image src={src} alt="Rastreador 1" width={300} height={300} className="m-auto mb-4" />
-      <button className="flex w-full items-center justify-center gap-1 rounded-md bg-green-400 py-4 text-neutral-600"><EyeIcon />Visualizar Manual</button>
+      <button className="flex w-full items-center justify-center gap-1 rounded-md bg-green-400 py-4 text-neutral-600"><ArrowDownToLineIcon />Baixar Manual</button>
     </div>
   )
 }
