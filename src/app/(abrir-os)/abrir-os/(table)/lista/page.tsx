@@ -42,11 +42,11 @@ export default function List() {
         </table>
       </div>
 
-      <Link href="/testar-rastreador-vendido/teste-comunicacao">
+      <Link href="/">
         <button className="mt-8 w-full rounded-md bg-green-400 p-4 text-neutral-600">Prosseguir</button>
       </Link>
 
-      <Link href="/testar-rastreador-vendido/teste-comunicacao">
+      <Link href="/">
         <button className="mt-2 w-full rounded-md bg-yellow-400 p-4 text-neutral-600">Pendente</button>
       </Link>
     </div>

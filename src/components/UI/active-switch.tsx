@@ -16,7 +16,7 @@ export const ActiveSwitch = () => {
         onClick={() => setisLock((state) => !state)}
         className="relative h-[2.4rem] w-[6.5rem] cursor-default rounded-full bg-green-500 shadow-md outline-none data-[state=checked]:bg-red-500"
       >
-        <Switch.Thumb className="group flex h-[2.1rem] w-[2.1rem] translate-x-[0.20rem] items-center justify-center rounded-full bg-zinc-100 transition-transform duration-100 will-change-transform data-[state=checked]:translate-x-[69px] data-[state=checked]:bg-zinc-100">
+        <Switch.Thumb className="group flex h-[2.1rem] w-[2.1rem] translate-x-[0.20rem] items-center justify-center rounded-full bg-zinc-100 transition-transform duration-100 will-change-transform data-[state=checked]:translate-x-[67px] data-[state=checked]:bg-zinc-100">
           {!isLock ? <LockOpenIcon /> : <LockIcon />}
         </Switch.Thumb>
       </Switch.Root>

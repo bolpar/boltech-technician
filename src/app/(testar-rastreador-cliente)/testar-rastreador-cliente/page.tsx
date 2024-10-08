@@ -8,7 +8,13 @@ import Link from "next/link";
 export default function TestCustomersTracker() {
   return (
     <form className="flex w-full flex-col bg-green-100 px-4 pb-48 pt-8">
-      <Image src="/boltech-logo.png" alt="Boltech logo" width={150} height={80} className="m-auto mb-10" />
+      <Image
+        src="/boltech-logo.png"
+        alt="Boltech logo"
+        width={150}
+        height={80}
+        className="m-auto mb-10"
+      />
 
       <fieldset className="flex flex-col gap-4">
         <LegendFieldset icon={ShieldCheckIcon}>Teste de Comunicação</LegendFieldset>
